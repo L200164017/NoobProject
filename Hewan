@@ -1,0 +1,30 @@
+package Animal;
+
+public class Hewan {
+    String nama;
+    int kaki;
+    String makanan;
+    String tipe;
+     
+    public Hewan(String names,int feet,String food,String type) {
+        this.nama = names;
+        this.kaki = feet;
+        this.makanan = food;
+        this.tipe = type;
+    }
+    
+    void describeAnimal() {
+        System.out.println("Nama Hewan: "+nama);
+        System.out.println("Jumlah Kaki: "+kaki);
+        System.out.println("Makanan: "+makanan);
+        System.out.println("Type Hewan: "+tipe+"\n");
+    }
+    
+    public static void main(String[] args) {
+        Hewan harimau = new Hewan("Harimau",4,"Daging","Karnivora");
+        Hewan kerbau = new Hewan("Harimau",4,"Daging","Karnivora");
+        
+        harimau.describeAnimal();
+        kerbau.describeAnimal();
+    }
+}
