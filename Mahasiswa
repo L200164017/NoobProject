@@ -1,0 +1,32 @@
+
+package Universitas;
+
+public class Mahasiswa {
+    String nama;
+    String alamat;
+    String nim;
+    int smt;
+    
+    public Mahasiswa(String names,String Nim,String Alamat,int sem) {
+        this.nama = names;
+        this.alamat = Alamat;
+        this.nim = Nim;
+        this.smt = sem;
+        
+    }
+    
+    void tampilkanNama() {
+        System.out.println("Nama dosen: "+nama);
+    }
+    
+    void tampilkanAlamat() {
+      System.out.println("tanggil lahir: "+alamat);
+}
+    void tampilkanNim() {
+        System.out.println("Nik: "+nim);
+    }
+    
+    void tampilkanSemester() {
+        System.out.println("Nama dosen: "+smt);
+    }
+}
