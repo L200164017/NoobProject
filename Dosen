@@ -1,0 +1,30 @@
+
+package Universitas;
+
+
+public class Dosen {
+    String nama;
+    int nik;
+    String pendidikan;
+    int tglLahir;
+    
+    public Dosen(String names,int tanggal,int NIK) {
+        this.nama = names;
+        this.tglLahir = tanggal;
+        this.nik = NIK;
+        
+    }
+    
+    void tampilkanNama() {
+        System.out.println("Nama dosen: "+nama);
+           
+    }
+  
+    void tampilkanTglLahir() {
+      System.out.println("tanggil lahir: "+tglLahir);
+}
+    void tampilkanNik() {
+        System.out.println("Nik: "+nik);
+    }
+     
+}
