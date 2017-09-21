@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class menghitungKalimat {
+
+public static void main(String[] args) {
+	System.out.println("Tuliskan sebuah kalimat");
+	Scanner scanned = new Scanner(System.in);
+
+	String b = scanned.nextLine();
+	int r = b.length();
+	
+	
+	System.out.println("Jumlah karakter: "+r);
+}
+
+
+}
