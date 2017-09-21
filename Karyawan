@@ -1,0 +1,33 @@
+
+package Universitas;
+
+
+public class Karyawan {
+    String nama;
+    String alamat;
+    String jabatan;
+    double gaji;
+    
+    public Karyawan(String names,String Alamat,String jab,double wage) {
+        this.nama = names;
+        this.alamat = Alamat;
+        this.jabatan = jab;
+        this.gaji = wage;
+        
+    }
+    
+    void tampilkanNama() {
+        System.out.println("Nama dosen: "+nama);
+    }
+    
+    void tampilkanAlamat() {
+      System.out.println("tanggil lahir: "+alamat);
+}
+    void tampilkanJabatan() {
+        System.out.println("Nik: "+jabatan);
+    }
+    
+    void tampilkanGaji() {
+        System.out.println("Nama dosen: "+gaji);
+    }
+}
